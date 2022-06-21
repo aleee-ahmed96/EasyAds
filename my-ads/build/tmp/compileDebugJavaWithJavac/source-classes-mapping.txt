@@ -1,0 +1,18 @@
+com/my_ads/databinding/LayoutNativeAdLargeFacebookBinding.java
+ com.my_ads.databinding.LayoutNativeAdLargeFacebookBinding
+com/my_ads/BuildConfig.java
+ com.my_ads.BuildConfig
+com/my_ads/databinding/LayoutNativeAdSmallAdmobBinding.java
+ com.my_ads.databinding.LayoutNativeAdSmallAdmobBinding
+com/my_ads/databinding/LayoutNativeAdAnimatedAdmobBinding.java
+ com.my_ads.databinding.LayoutNativeAdAnimatedAdmobBinding
+com/my_ads/databinding/LayoutNativeAdSmallFacebookBinding.java
+ com.my_ads.databinding.LayoutNativeAdSmallFacebookBinding
+com/my_ads/databinding/LayoutShimmerBinding.java
+ com.my_ads.databinding.LayoutShimmerBinding
+com/my_ads/databinding/LayoutNativeAdBothBinding.java
+ com.my_ads.databinding.LayoutNativeAdBothBinding
+com/my_ads/databinding/LayoutNativeAdFacebookBinding.java
+ com.my_ads.databinding.LayoutNativeAdFacebookBinding
+com/my_ads/databinding/LayoutNativeAdLargeAdmobBinding.java
+ com.my_ads.databinding.LayoutNativeAdLargeAdmobBinding

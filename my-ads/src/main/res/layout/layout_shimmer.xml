@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/ads_background"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@color/ads_background"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:layout_margin="@dimen/_5sdp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_9sdp"
+        >
+
+        <View
+            android:id="@+id/full_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:background="@color/grey"
+            android:visibility="gone"
+            />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/thumbnail"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginEnd="@dimen/_14sdp"
+            app:cardBackgroundColor="@color/grey"
+            app:cardCornerRadius="@dimen/_4sdp" />
+
+        <LinearLayout
+            android:id="@+id/ll_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/thumbnail"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_below="@+id/full_image"
+            android:layout_toStartOf="@+id/btnRedirection1"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_12sdp"
+                android:background="@color/grey"
+                android:layout_marginEnd="@dimen/_50sdp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_9sdp"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:layout_marginEnd="@dimen/_100sdp"
+                android:background="@color/grey" />
+
+        </LinearLayout>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnRedirection1"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:cardCornerRadius="@dimen/_4sdp"
+            app:cardBackgroundColor="@color/grey"
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

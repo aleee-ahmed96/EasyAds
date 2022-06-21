@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ads_background">#585858</color>
+    <color name="grey">#828282</color>
+    <color name="grey1">#A8A8A8</color>
+    <color name="grey2">#D2D9DF</color>
+    <color name="large_ads_background">#272727</color>
+    <color name="light_grey">#f6f6f6</color>
+    <color name="red">#ff4c37</color>
+</resources>
